@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<Config>
+    <center>140</center>
+	<sigma>0.2</sigma>
+    <boostFactor>1.0</boostFactor>
+    <pyramidMinSize>5</pyramidMinSize>
+    <minPixel>-100</minPixel>
+    <maxPixel>365</maxPixel>
+	<LocalToneMappingEnable>0</LocalToneMappingEnable>
+	<SigmaCurve>
+		<bitWidth>12</bitWidth>
+		<nrScale>1.0f</nrScale>
+        <curve_K_A>0.00005750f</curve_K_A>
+        <curve_K_B>0.00453723f</curve_K_B>
+		<curve_B_A>0.00000015f</curve_B_A>
+		<curve_B_B>0.00006062f</curve_B_B>
+		<bmy_th0>15</bmy_th0>
+        <bmy_th1>25</bmy_th1>
+        <bmy_b>3.0f</bmy_b>
+		<dmuv_th>127</dmuv_th>
+		<dmuv_b>8.0f</dmuv_b>
+	</SigmaCurve>
+	
+	<MotionDetect>
+		<MotionLowGray>10</MotionLowGray>
+        <MotionHighGray>20</MotionHighGray>
+        <MotionRatio>6.0</MotionRatio>
+		<PureColorMotionDetection>0.2</PureColorMotionDetection>
+		<DarkThresh>255</DarkThresh>
+		<night_lumaavg>15</night_lumaavg>
+		<bMontionDetectionUV>1</bMontionDetectionUV>
+	</MotionDetect>
+	
+	<MotionCorrection>
+		<underEx_val>20</underEx_val>
+        <overEx_val>235</overEx_val>
+        <denoise_iso_val>400</denoise_iso_val>
+		<gf_radius>2</gf_radius>
+		<gf_epsilon>0.0001f</gf_epsilon>
+		<gf_epsilon_b1>0.0003f</gf_epsilon_b1>
+		<gf_epsilon_k1>0.0001f</gf_epsilon_k1>
+		<gf_epsilon_b2>0.0006f</gf_epsilon_b2>
+		<gf_epsilon_k2>0.0002f</gf_epsilon_k2>
+	</MotionCorrection>
+</Config>

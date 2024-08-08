@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<algorithm-settings>
+    <preprocessing name="preprocessing">
+        <scene name="off" default="true">
+            <device input="*" output="*" default="true">
+                <algorithm name="IMEDIA">
+                    <parameter key="Enable" value="false"/>
+                    <parameter key="commonParam" value="1,1,26,1,0,11"/>
+                    <parameter key="HDREnable" value="false"/>
+                    <parameter key="VDREnable" value="false"/>
+                    <parameter key="DRCEnable" value="false"/>
+                    <parameter key="AGCEnable" value="false"/>
+                    <parameter key="EQEnable" value="false"/>
+                    <parameter key="HLPFEnable" value="false"/>
+                    <parameter key="RNREnable" value="false"/>
+                    <parameter key="MICEnable" value="false"/>
+                    <parameter key="DREnable" value="false"/>
+                    <parameter key="ReseEnable" value="0,0,0,0,0,0,0"/>
+                    <parameter key="MicLastCnt" value="50"/>
+                    <parameter key="MicDiffRmsThr" value="18"/>
+                    <parameter key="MicCSpeechRmsThr" value="-40"/>
+                    <parameter key="MicCErrRmsThr" value="-58"/>
+                    <parameter key="MicBlockAbsThr" value="136,136,136,170,102,102"/>
+                    <parameter key="MicDetEnable" value="7"/>
+                    <parameter key="MicAbsThrAdjustAlpha" value="64"/>
+                    <parameter key="MicDifThrAdjustAlpha" value="32"/>
+                    <parameter key="MicAdjustEnable" value="7"/>
+                    <parameter key="MicRightMayBlkThr" value="0"/>
+                    <parameter key="HdrMicGainMindB" value="6"/>
+                    <parameter key="HdrMicGainMaxdB" value="20"/>
+                    <parameter key="HdrMicGainStepdB" value="2"/>
+                    <parameter key="HdrAttackTime" value="20"/>
+                    <parameter key="HdrReleaseTime" value="600"/>
+                    <parameter key="HdrResHdr" value="0,0,0"/>
+                    <parameter key="DrcFixGain" value="0"/>
+                    <parameter key="DrcLevAttackTime" value="20"/>
+                    <parameter key="DrcLevReleaseTime" value="15"/>
+                    <parameter key="DrcGainAttackTime" value="15"/>
+                    <parameter key="DrcGainReleaseTime" value="100"/>
+                    <parameter key="DrcResDrc" value="0,0,0"/>
+                    <parameter key="DrcOldAndNewLevDb" value="0,-16,-224,-512,-624,-800,-8,-10,-48,-192,-272,-448"/>
+                    <parameter key="DrcSResDrc" value="-1536,-1184,0,0"/>
+                    <parameter key="AgcTargetLevel" value="-3"/>
+                    <parameter key="AgcNoiseFloor" value="-50"/>
+                    <parameter key="AgcMaxGain" value="2"/>
+                    <parameter key="AgcMinGain" value="-1"/>
+                    <parameter key="AgcAdjustSpeed" value="0"/>
+                    <parameter key="AgcImproveSNR" value="2"/>
+                    <parameter key="AgcSuppressRange" value="0"/>
+                    <parameter key="AgcBackGrdLevel" value="-40"/>
+                    <parameter key="AgcUseHighPassFilt" value="0"/>
+                    <parameter key="AgcOutputMode" value="0"/>
+                    <parameter key="AgcSFreqGainUpStep" value="1024"/>
+                    <parameter key="AgcSFreqGainDownStep" value="3072"/>
+                    <parameter key="AgcSTimeFixedGain" value="2048"/>
+                    <parameter key="AgcSNoiseSupSwitch" value="0"/>
+                    <parameter key="AgcSSPDiffThresh" value="0"/>
+                    <parameter key="AgcSSTFLfactor" value="0"/>
+                    <parameter key="AgcSNoiseSupRate" value="512"/>
+                    <parameter key="AgcSResetTime" value="50"/>
+                    <parameter key="AgcFDRCstart" value="0,0,0"/>
+                    <parameter key="AgcFDRCend" value="0,0,0"/>
+                    <parameter key="AgcFDRCMaxAmp" value="0,0,0"/>
+                    <parameter key="AgcResA

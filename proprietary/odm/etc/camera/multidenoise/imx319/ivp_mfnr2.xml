@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<Config>
+    <Global>
+        <NoiseReductionFlag>1</NoiseReductionFlag>
+        <LumaEnhancementFlag>0</LumaEnhancementFlag>
+        <ExposureFusionFlag colorcount="4" graycount="4" minfps0="62500" minfps1="62500" maxiso0="3600" maxiso1="3600" sync="0">0</ExposureFusionFlag>
+    </Global>
+
+    <NoiseReduction>
+        <ISO1>
+            <isovalue>340</isovalue>
+            <NoiseReductionFlag>1</NoiseReductionFlag>
+            <lumaMed>0</lumaMed>
+            <lumaLF>-100</lumaLF>
+            <lumaHF1>0</lumaHF1>
+            <lumaHF2>0</lumaHF2>
+            <lumaHF3>0</lumaHF3>
+            <chromaS>-100</chromaS>
+            <detail>-128</detail>
+            <chromaNrLUT>384 384 384 384 256 256 256 256 192 192 192 192 128 128 128 128 64 64 64 64 384 384 384 384 256 256 256 256 192 192 192 192 128 128 128 128 64 64 64 64</chromaNrLUT>
+        </ISO1>
+        <ISO2>
+            <isovalue>680</isovalue>
+            <NoiseReductionFlag>1</NoiseReductionFlag>
+            <lumaMed>0</lumaMed>
+            <lumaLF>-100</lumaLF>
+            <lumaHF1>0</lumaHF1>
+            <lumaHF2>0</lumaHF2>
+            <lumaHF3>0</lumaHF3>
+            <chromaS>-100</chromaS>
+            <detail>-128</detail>
+            <chromaNrLUT>384 384 384 384 256 256 256 256 192 192 192 192 128 128 128 128 64 64 64 64 384 384 384 384 256 256 256 256 192 192 192 192 128 128 128 128 64 64 64 64</chromaNrLUT>
+        </ISO2>
+        <ISO3>
+            <isovalue>1360</isovalue>
+            <NoiseReductionFlag>1</NoiseReductionFlag>
+            <lumaMed>0</lumaMed>
+            <lumaLF>-100</lumaLF>
+            <lumaHF1>0</lumaHF1>
+            <lumaHF2>0</lumaHF2>
+            <lumaHF3>0</lumaHF3>
+            <chromaS>-80</chromaS>
+            <detail>-128</detail>
+            <chromaNrLUT>384 384 384 384 256 256 256 256 192 192 192 192 128 128 128 128 64 64 64 64 384 384 384 384 256 256 256 256 192 192 192 192 128 128 128 128 64 64 64 64</chromaNrLUT>
+        </ISO3>
+        <ISO4>
+            <isovalue>2040</isovalue>
+            <NoiseReductionFlag>1</NoiseReductionFlag>
+            <lumaMed>0</lumaMed>
+            <lumaLF>-100</lumaLF>
+            <lumaHF1>0</lumaHF1>
+            <lumaHF2>0</lumaHF2>
+            <lumaHF3>0</lumaHF3>
+            <chromaS>-96</chromaS>
+            <detail>-128</detail>
+            <chromaNrLUT>384 384 384 384 256 256 256 256 192 192 192 192 128 128 128 128 64 64 64 64 384 384 384 384 256 256 256 256 192 192 192 192 128 128 128 128 64 64 64 64</chromaNrLUT>
+        </ISO4>
+        <ISO5>
+            <isovalue>4096</isovalue>
+            <NoiseReductionFlag>1</NoiseReductionFlag>
+            <lumaMed>0</lumaMed>
+            <lumaLF>-100</lumaLF>
+            <lumaHF1>0</lumaHF1>
+            <lumaHF2>0</lumaHF2>
+            <lumaHF3>0</lumaHF3>
+            <chromaS>-95</chromaS>
+            <detail>-128</detail>
+            <chromaNrLUT>384 384 384 384 256 256 256 256 192 192 192 192 128 128 128 128 64 64 64 64 384 384 384 384 256 256 256 256 192 192 192 192 128 128 128 128 64 64 64 64</chromaNrLUT>
+        </ISO5>
+        <ISO6>
+            <isovalue>5120</isovalue>
+            <NoiseReductionFlag>1</NoiseReductionFlag>
+            <lumaMed>0</lumaMed>
+            <lumaLF>-100</lumaLF>
+            <lumaHF1>0</lumaHF1>
+            <lumaHF2>0</lumaHF2>
+            <lumaHF3>0</lumaHF3>
+            <chromaS>-95</chromaS>
+            <detail>-128</detail>
+            <chromaNrLUT>384 384 384 384 256 256 256 256 192 192 192 192 128 128 128 128 64 64 64 64 384 384 384 384 256 256 256 256 192 192 192 192 128 128 128 128 64 64 64 64</chromaNrLUT>
+        </ISO6>
+        <ISO7>
+            <isovalue>6411</isovalue>
+            <NoiseReductionFlag>1</NoiseReductionFlag>
+            <lumaMed>0</lumaMed>
+            <lumaLF>-96</lumaLF>
+            <lumaHF1>0</lumaHF1>
+            <lumaHF2>0</lumaHF2>
+            <lumaHF3>0</lumaHF3>
+            <chromaS>-95</chromaS>
+            <detail>-128</detail>
+          

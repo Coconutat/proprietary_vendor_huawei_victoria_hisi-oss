@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<Config>
+    <Global>
+        <InvalidYuvCorrec>0</InvalidYuvCorrec>
+        <NoiseReducFlag>1</NoiseReducFlag>
+        <ContrastEnhanceFlag>1</ContrastEnhanceFlag>
+        <SharpnessEnhanceFlag>1</SharpnessEnhanceFlag>
+        <ColorManageFlag>0</ColorManageFlag>
+        <MaskGuidedContrastFlag>0</MaskGuidedContrastFlag>
+        <MaskGuidedSharpnessFlag>0</MaskGuidedSharpnessFlag>
+    </Global>
+
+    <NoiseReduction>
+        <ISO1>
+            <isovalue>512</isovalue>
+
+            <NoiseReducFlag>1</NoiseReducFlag>
+            <ContrastEnhanceFlag>0</ContrastEnhanceFlag>
+            <SharpnessEnhanceFlag>1</SharpnessEnhanceFlag>
+            <ColorManageFlag>1</ColorManageFlag>
+
+            <luma>-95</luma>
+            <chroma>-90</chroma>
+            <lumaHF>-90</lumaHF>
+            <chromaHF>-90</chromaHF>
+            <detail>-101</detail>
+            <shading>1.0</shading>
+            <percentLow>0.2</percentLow>
+            <percentHigh>0.8</percentHigh>
+            <diffusion>0.0</diffusion>
+            <alphaLUT>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128</alphaLUT>
+        </ISO1>
+        <ISO2>
+            <isovalue>1152</isovalue>
+
+            <NoiseReducFlag>1</NoiseReducFlag>
+            <ContrastEnhanceFlag>0</ContrastEnhanceFlag>
+            <SharpnessEnhanceFlag>1</SharpnessEnhanceFlag>
+            <ColorManageFlag>1</ColorManageFlag>
+
+            <luma>-95</luma>
+            <chroma>-80</chroma>
+            <lumaHF>-85</lumaHF>
+            <chromaHF>-85</chromaHF>
+            <detail>-101</detail>
+            <shading>1.0</shading>
+            <percentLow>0.2</percentLow>
+            <percentHigh>0.8</percentHigh>
+            <diffusion>0.0</diffusion>
+            <alphaLUT>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128</alphaLUT>
+        </ISO2>
+        <ISO3>
+            <isovalue>1520</isovalue>
+
+            <NoiseReducFlag>1</NoiseReducFlag>
+            <ContrastEnhanceFlag>0</ContrastEnhanceFlag>
+            <SharpnessEnhanceFlag>1</SharpnessEnhanceFlag>
+            <ColorManageFlag>1</ColorManageFlag>
+
+            <luma>-90</luma>
+            <chroma>-80</chroma>
+            <lumaHF>-80</lumaHF>
+            <chromaHF>-85</chromaHF>
+            <detail>-101</detail>
+            <shading>1.0</shading>
+            <percentLow>0.2</percentLow>
+            <percentHigh>0.8</percentHigh>
+            <diffusion>0.0</diffusion>
+            <alphaLUT>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128</alphaLUT>
+        </ISO3>
+        <ISO4>
+            <isovalue>2048</isovalue>
+
+            <NoiseReducFlag>1</NoiseReducFlag>
+            <ContrastEnhanceFlag>0</ContrastEnhanceFlag>
+            <SharpnessEnhanceFlag>1</SharpnessEnhanceFlag>
+            <ColorManageFlag>0</ColorManageFlag>
+
+            <luma>-85</luma>
+            <chroma>-70</chroma>
+            <lumaHF>-80</lumaHF>
+            <chromaHF>-85</chromaHF>
+            <detail>-101</detail>
+            <shading>1.0</shading>
+            <percentLow>0.2</percentLow>
+            <percentHigh>0.8</percentHigh>
+            <diffusion>0.0</diffusion>
+            <alphaLUT>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128</alphaLUT>
+        </ISO4>
+        <ISO5>
+            <isovalue>2560</isovalue>
+
+            <NoiseReducFlag>1</NoiseReducFlag>
+            <ContrastEnhanceFlag>0</ContrastEnhanceFlag>
+            <SharpnessEnhanceFlag>1</SharpnessEnhanceFlag>
+            <ColorManageFlag>0</ColorManageFlag>
+
+            <luma>-80</luma>
+            <chroma>-65</chroma>
+            <lumaHF>-75</lumaHF>
+            <chromaHF>-80</chromaHF>
+            <detail>-101</detail>
+            <shading>1.0</shading>
+            <percentLow>0.2</percentLow>
+            <percentHigh>0.8</percentHigh>
+            <diffusion>0.0</diffusion>
+            <alphaLUT>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128</alphaLUT>
+        </ISO5>
+        <ISO6>
+            <isovalue>3580</isovalue>
+
+            <NoiseReducFlag>1</NoiseReducFlag>
+            <ContrastEnhanceFlag>0</Contras

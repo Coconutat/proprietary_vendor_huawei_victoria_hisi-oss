@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<Config>
+    <Global>
+        <ExposureFusionFlag colorcount="4" graycount="4" minfps0="83333" minfps1="62500" maxiso0="3500" maxiso1="3200" sync="0">1</ExposureFusionFlag>
+        <BinningExposureFusionFlag colorcount="4" graycount="4" minfps0="83333" minfps1="62500" maxiso0="6400" maxiso1="8000" sync="0">1</BinningExposureFusionFlag>
+        <DoubleBinningExposureFusionFlag colorcount="4" graycount="4" minfps0="83333" minfps1="62500" maxiso0="6400" maxiso1="6400" sync="0">1</DoubleBinningExposureFusionFlag>
+        <BinningParams ratio="170">1</BinningParams>
+        <DoubleISO BinningTH="1" MultiDenoiseTH="1" LaserRange="0" MonoBase="0">1</DoubleISO>
+    </Global>
+
+    <NoiseReduction>
+        <ISO1>
+            <isovalue>2048</isovalue>
+            <lumaMed>0</lumaMed>
+            <lumaLF>-100</lumaLF>
+            <lumaHF1>0</lumaHF1>
+            <lumaHF2>0</lumaHF2>
+            <lumaHF3>0</lumaHF3>
+            <detail>-128</detail>
+            <lumaMed_M>0</lumaMed_M>
+            <lumaLF_M>-90</lumaLF_M>
+            <lumaHF1_M>0</lumaHF1_M>
+            <lumaHF2_M>0</lumaHF2_M>
+            <lumaHF3_M>0</lumaHF3_M>
+            <detail_M>-128</detail_M>
+            <chromaS>-97</chromaS>
+            <chromaNrLUT>384 384 384 384 256 256 256 256 192 192 192 192 128 128 128 128 64 64 64 64 384 384 384 384 256 256 256 256 192 192 192 192 128 128 128 128 64 64 64 64</chromaNrLUT>
+            <lumaMed_BN>0</lumaMed_BN>
+            <lumaLF_BN>-90</lumaLF_BN>
+            <lumaHF1_BN>0</lumaHF1_BN>
+            <lumaHF2_BN>0</lumaHF2_BN>
+            <lumaHF3_BN>0</lumaHF3_BN>
+            <detail_BN>-128</detail_BN>
+            <chromaS_BN>-97</chromaS_BN>
+        </ISO1>
+        <ISO2>
+            <isovalue>3838</isovalue>
+            <lumaMed>0</lumaMed>
+            <lumaLF>-99</lumaLF>
+            <lumaHF1>0</lumaHF1>
+            <lumaHF2>0</lumaHF2>
+            <lumaHF3>0</lumaHF3>
+            <detail>-128</detail>
+            <lumaMed_M>0</lumaMed_M>
+            <lumaLF_M>-90</lumaLF_M>
+            <lumaHF1_M>0</lumaHF1_M>
+            <lumaHF2_M>0</lumaHF2_M>
+            <lumaHF3_M>0</lumaHF3_M>
+            <detail_M>-128</detail_M>
+            <chromaS>-97</chromaS>
+            <chromaNrLUT>384 384 384 384 256 256 256 256 192 192 192 192 128 128 128 128 64 64 64 64 384 384 384 384 256 256 256 256 192 192 192 192 128 128 128 128 64 64 64 64</chromaNrLUT>
+            <lumaMed_BN>0</lumaMed_BN>
+            <lumaLF_BN>-90</lumaLF_BN>
+            <lumaHF1_BN>0</lumaHF1_BN>
+            <lumaHF2_BN>0</lumaHF2_BN>
+            <lumaHF3_BN>0</lumaHF3_BN>
+            <detail_BN>-128</detail_BN>
+            <chromaS_BN>-97</chromaS_BN>
+        </ISO2>
+        <ISO3>
+            <isovalue>4736</isovalue>
+            <lumaMed>0</lumaMed>
+            <lumaLF>-85</lumaLF>
+            <lumaHF1>0</lumaHF1>
+            <lumaHF2>0</lumaHF2>
+            <lumaHF3>0</lumaHF3>
+            <detail>-128</detail>
+            <lumaMed_M>0</lumaMed_M>
+            <lumaLF_M>-85</lumaLF_M>
+            <lumaHF1_M>0</lumaHF1_M>
+            <lumaHF2_M>0</lumaHF2_M>
+            <lumaHF3_M>0</lumaHF3_M>
+            <detail_M>-128</detail_M>
+            <chromaS>-97</chromaS>
+            <chromaNrLUT>384 384 384 384 256 256 256 256 192 192 192 192 128 128 128 128 64 64 64 64 384 384 384 384 256 256 256 256 192 192 192 192 128 128 128 128 64 64 64 64</chromaNrLUT>
+            <lumaMed_BN>0</lumaMed_BN>
+            <lumaLF_BN>-85</lumaLF_BN>
+            <lumaHF1_BN>0</lumaHF1_BN>
+            <lumaHF2_BN>0</lumaHF2_BN>
+            <lumaHF3_BN>0</lumaHF3_BN>
+            <detail_BN>-128</detail_BN>
+            <chromaS_BN>-97</chromaS_BN>
+        </ISO3>
+        <ISO4>
+            <isovalue>6784</isovalue>
+            <lumaMed>0</lumaMed>
+            <lumaLF>-80</lumaLF>
+            <lumaHF1>0</lumaHF1>
+            <lumaHF2>0</lumaHF2>
+            <lumaHF3>0</lumaHF3>
+            <detail>-110</detail>
+            <lumaMed_M>0</lumaMed_M

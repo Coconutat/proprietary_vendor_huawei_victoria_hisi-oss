@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- The parameters is for NEXT front camera with liteon Module -->
+<Config>
+    <Global>
+	    <!-- If true (non-zero) we will do optical distortion correction.-->
+	    <LDCFlag>0</LDCFlag>
+		<!-- If true (non-zero) we will do face distortion correction.-->
+		<FDCFlag>0</FDCFlag>
+		<!-- If false (zero) we will don't do LDC or FDC when more than one face in the image.-->
+		<MultiFacesLDCFlag>0</MultiFacesLDCFlag>
+		<MultiFacesFDCFlag>0</MultiFacesFDCFlag>
+		<!-- If not false (zero) we will do FDC by using golbal FDC method first when more than one face in the image.-->
+		<GolbalFDCFlag>0</GolbalFDCFlag>
+		<!-- When the proportion of the face area in the restricted region is more than RestrictedAreaRatio*100 and the flag is true, don't do LDC or FDC.-->
+		<LDCAreaRestrictedFlag>1</LDCAreaRestrictedFlag>
+		<FDCAreaRestrictedFlag>1</FDCAreaRestrictedFlag>
+		<!--The ratio of the face area in the restricted region-->
+		<RestrictedAreaRatio>0.7</RestrictedAreaRatio>		
+	</Global>
+	<!--We will choose the LDC parameters by use the image width and height-->
+	<DistortionCorrection1>
+		<ImageWidth>3264</ImageWidth>
+		<ImageHeight>2448</ImageHeight>
+		<BendValue>45</BendValue>
+		<SvmFactor>1632</SvmFactor>
+		<RestrictedArea>490 367 2774 2080</RestrictedArea>
+		<CameraMatrix>2.3953042426537118e+003 0. 1.6258758677118510e+003 0. 2.3953042426537118e+003 1.2360812894719863e+003 0. 0. 1.</CameraMatrix>
+		<DistortionCoefficients>1.3934033261882831e-001 -4.7015405341117228e-001 4.9094411384204284e-001 0. 0.</DistortionCoefficients>
+		<GlobalFDCCoefficients>2.775600129757786e-008 -1.309672533652944e-015 1.121085464155854e-022 4.0808823529411764e-004</GlobalFDCCoefficients>
+	</DistortionCorrection1>
+	<DistortionCorrection2>
+		<ImageWidth>3264</ImageWidth>
+		<ImageHeight>1840</ImageHeight>
+		<BendValue>45</BendValue>
+		<SvmFactor>1632</SvmFactor>
+		<RestrictedArea>490 63 2774 1776</RestrictedArea>
+		<CameraMatrix>2.3953042426537118e+003 0. 1.6258758677118510e+003 0. 2.3953042426537118e+003 0.9320812894719863e+003 0. 0. 1.</CameraMatrix>
+		<DistortionCoefficients>1.3934033261882831e-001 -4.7015405341117228e-001 4.9094411384204284e-001 0. 0.</DistortionCoefficients>
+		<GlobalFDCCoefficients>2.775600129757786e-008 -1.309672533652944e-015 1.121085464155854e-022 4.0808823529411764e-004</GlobalFDCCoefficients>
+	</DistortionCorrection2>
+	<DistortionCorrection3>
+		<ImageWidth>2448</ImageWidth>
+		<ImageHeight>2448</ImageHeight>
+		<BendValue>45</BendValue>
+		<SvmFactor>1632</SvmFactor>
+		<RestrictedArea>367 367 2080 2080</RestrictedArea>
+		<CameraMatrix>2.3953042426537118e+003 0. 1.2178758677118510e+003 0. 2.3953042426537118e+003 1.2360812894719863e+003 0. 0. 1.</CameraMatrix>
+		<DistortionCoefficients>1.3934033261882831e-001 -4.7015405341117228e-001 4.9094411384204284e-001 0. 0.</DistortionCoefficients>
+		<GlobalFDCCoefficients>2.775600129757786e-008 -1.309672533652944e-015 1.121085464155854e-022 4.0808823529411764e-04</GlobalFDCCoefficients>
+	</DistortionCorrection3>
+	<DistortionCorrection4>
+		<ImageWidth>640</ImageWidth>
+		<ImageHeight>480</ImageHeight>
+		<BendValue>10</BendValue>
+		<SvmFactor>320</SvmFactor>
+		<RestrictedArea>96 72 544 408</RestrictedArea>
+		<CameraMatrix>4.6966749855955133e+002 0. 3.1879918974742176e+002 0. 4.6966749855955133e+002 2.4236888028862476e+002 0. 0. 1.</CameraMatrix>
+		<DistortionCoefficients>1.3934033261882831e-001 -4.7015405341117228e-001 4.9094411384204284e-001 0. 0.</DistortionCoefficients>
+		<GlobalFDCCoefficients>7.2193359375000013e-007 -8.8601979343414304e-013 1.9726942476804076e-018 2.08125e-003</GlobalFDCCoefficients>
+	</DistortionCorrection4>
+	<FaceDistortionCorrection> 
+		<CorrectionDegree>0.2</CorrectionDegree>
+        <FOVLost>10</FOVLost>
+	</FaceDistortionCorrection>
+	<LineDetection>
+	    <BinarizationThresh>100</BinarizationThresh>
+		<ConnectLineRatio>0.5</ConnectLineRatio>
+		<LineLengthRatio>0.5</LineLengthRatio>
+		<BendDecideMode>0</BendDecideMode>
+		<SVM>
+			<Gamma>0.53</Gamma>
+			<Rho>0.925350<

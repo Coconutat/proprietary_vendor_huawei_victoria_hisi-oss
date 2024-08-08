@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<Config>
+    <Global>
+        <NoiseReductionFlag>1</NoiseReductionFlag>
+        <LumaEnhancementFlag>0</LumaEnhancementFlag>
+        <ExposureFusionFlag colorcount="4" graycount="4" minfps0="62500" minfps1="62500" maxiso0="3600" maxiso1="3600" sync="0">0</ExposureFusionFlag>
+    </Global>
+
+    <NoiseReduction>
+        <ISO1>
+            <isovalue>520</isovalue>
+            <NoiseReductionFlag>1</NoiseReductionFlag>
+            <lumaMed>0</lumaMed>
+            <lumaLF>-99</lumaLF>
+            <lumaHF1>0</lumaHF1>
+            <lumaHF2>0</lumaHF2>
+            <lumaHF3>0</lumaHF3>
+            <detail>-128</detail>
+            <lumaMed_M>0</lumaMed_M>
+            <lumaLF_M>-99</lumaLF_M>
+            <lumaHF1_M>0</lumaHF1_M>
+            <lumaHF2_M>0</lumaHF2_M>
+            <lumaHF3_M>0</lumaHF3_M>
+            <detail_M>-128</detail_M>
+            <chromaS>-97</chromaS>
+            <chromaNrLUT>384 384 384 384 256 256 256 256 192 192 192 192 128 128 128 128 64 64 64 64 384 384 384 384 256 256 256 256 192 192 192 192 128 128 128 128 64 64 64 64</chromaNrLUT>
+        </ISO1>
+        <ISO2>
+            <isovalue>1100</isovalue>
+            <NoiseReductionFlag>1</NoiseReductionFlag>
+            <lumaMed>0</lumaMed>
+            <lumaLF>-98</lumaLF>
+            <lumaHF1>0</lumaHF1>
+            <lumaHF2>0</lumaHF2>
+            <lumaHF3>0</lumaHF3>
+            <detail>-128</detail>
+            <lumaMed_M>0</lumaMed_M>
+            <lumaLF_M>-98</lumaLF_M>
+            <lumaHF1_M>0</lumaHF1_M>
+            <lumaHF2_M>0</lumaHF2_M>
+            <lumaHF3_M>0</lumaHF3_M>
+            <detail_M>-128</detail_M>
+            <chromaS>-97</chromaS>
+            <chromaNrLUT>384 384 384 384 256 256 256 256 192 192 192 192 128 128 128 128 64 64 64 64 384 384 384 384 256 256 256 256 192 192 192 192 128 128 128 128 64 64 64 64</chromaNrLUT>
+        </ISO2>
+        <ISO3>
+            <isovalue>2100</isovalue>
+            <NoiseReductionFlag>1</NoiseReductionFlag>
+            <lumaMed>0</lumaMed>
+            <lumaLF>-97</lumaLF>
+            <lumaHF1>0</lumaHF1>
+            <lumaHF2>0</lumaHF2>
+            <lumaHF3>0</lumaHF3>
+            <detail>-128</detail>
+            <lumaMed_M>0</lumaMed_M>
+            <lumaLF_M>-94</lumaLF_M>
+            <lumaHF1_M>0</lumaHF1_M>
+            <lumaHF2_M>0</lumaHF2_M>
+            <lumaHF3_M>0</lumaHF3_M>
+            <detail_M>-128</detail_M>
+            <chromaS>-97</chromaS>
+            <chromaNrLUT>384 384 384 384 256 256 256 256 192 192 192 192 128 128 128 128 64 64 64 64 384 384 384 384 256 256 256 256 192 192 192 192 128 128 128 128 64 64 64 64</chromaNrLUT>
+        </ISO3>
+        <ISO4>
+            <isovalue>3100</isovalue>
+            <NoiseReductionFlag>1</NoiseReductionFlag>
+            <lumaMed>0</lumaMed>
+            <lumaLF>-98</lumaLF>
+            <lumaHF1>0</lumaHF1>
+            <lumaHF2>0</lumaHF2>
+            <lumaHF3>0</lumaHF3>
+            <detail>-128</detail>
+            <lumaMed_M>0</lumaMed_M>
+            <lumaLF_M>-90</lumaLF_M>
+            <lumaHF1_M>0</lumaHF1_M>
+            <lumaHF2_M>0</lumaHF2_M>
+            <lumaHF3_M>0</lumaHF3_M>
+            <detail_M>-128</detail_M>
+            <chromaS>-97</chromaS>
+            <chromaNrLUT>384 384 384 384 256 256 256 256 192 192 192 192 128 128 128 128 64 64 64 64 384 384 384 384 256 256 256 256 192 192 192 192 128 128 128 128 64 64 64 64</chromaNrLUT>
+        </ISO4>
+        <ISO5>
+            <isovalue>4100</isovalue>
+            <NoiseReductionFlag>1</NoiseReductionFlag>
+            <lumaMed>0</lumaMed>
+            <lumaLF>-97</lumaLF>
+            <lumaHF1>0</lumaHF1>
+            <lumaHF2>0</lumaHF2>
+            <lumaHF3>0</lumaHF3>
+            <detail>-128</detail>
+            <lumaMed_M>0</lumaMed_M>
+            <lumaLF_M>-90</lumaLF_M>
+            <lumaHF1_M>0</lumaHF1_M>
+            <lumaHF2_M>0</lumaHF2_M>
+            <lumaHF3_M>0</lumaHF3_M>
+            <detail_M>-128</detail_M>
+            <chromaS>-97</chro

@@ -1,0 +1,88 @@
+<mixer>
+	<!-- default switch control values -->
+	<ctl name="S1 OL SWITCH SWITCH" value="0" />
+	<ctl name="S1 OR SWITCH SWITCH" value="0" />
+	<ctl name="S2 OL SWITCH SWITCH" value="0" />
+	<ctl name="S2 OR SWITCH SWITCH" value="0" />
+	<ctl name="S3 OL SWITCH SWITCH" value="0" />
+	<ctl name="S3 OR SWITCH SWITCH" value="0" />
+	<ctl name="S4 OL SWITCH SWITCH" value="0" />
+	<ctl name="S4 OR SWITCH SWITCH" value="0" />
+	<ctl name="U3 OL SWITCH SWITCH" value="0" />
+	<ctl name="U4 OR SWITCH SWITCH" value="0" />
+	<ctl name="PLLMAD SWITCH SWITCH" value="0" />
+	<ctl name="PLL48K SWITCH SWITCH" value="0" />
+	<ctl name="PLL44K1 SWITCH SWITCH" value="0" />
+	<ctl name="VOICE32K SWITCH SWITCH" value="0" />
+	<ctl name="VOICE16K SWITCH SWITCH" value="0" />
+	<ctl name="VOICE8K SWITCH SWITCH" value="0" />
+	<ctl name="AUDIOUP SWITCH SWITCH" value="0" />
+	<ctl name="AUDIOUP 4MIC SWITCH SWITCH" value="0" />
+	<ctl name="MAD SWITCH SWITCH" value="0" />
+	<ctl name="HPHIGHLEVEL SWITCH SWITCH" value="0" />
+	<ctl name="PLAY48K SWITCH SWITCH" value="0" />
+	<ctl name="PLAY96K SWITCH SWITCH" value="0" />
+	<ctl name="PLAY192K SWITCH SWITCH" value="0" />
+	<ctl name="LOWLATENCY SWITCH SWITCH" value="0" />
+	<!-- default mixer control values -->
+	<ctl name="DACR FLT MIXER S1R SWITCH" value="0" />
+	<ctl name="DACR FLT MIXER DACR SRC SWITCH" value="0" />
+	<ctl name="DACL FLT MIXER DACL SRC SWITCH" value="0" />
+	<ctl name="DACL FLT MIXER S1L SWITCH" value="0" />
+	<ctl name="DACSR MIXER DACR SWITCH" value="0" />
+	<ctl name="DACSR MIXER SIDETONE SWITCH" value="0" />
+	<ctl name="DACSR MIXER DSP IF8 OR SWITCH" value="0" />
+	<ctl name="DACSR MIXER MDM SWITCH" value="0" />
+	<ctl name="DACSL MIXER DACL SWITCH" value="0" />
+	<ctl name="DACSL MIXER SIDETONE SWITCH" value="0" />
+	<ctl name="DACSL MIXER DSP IF8 OL SWITCH" value="0" />
+	<ctl name="DACSL MIXER MDM SWITCH" value="0" />
+	<ctl name="DACR SRC MIXER SIDETONE SWITCH" value="0" />
+	<ctl name="DACR SRC MIXER DSP IF8 SWITCH" value="1" />
+	<ctl name="DACL SRC MIXER DSP IF8 SWITCH" value="1" />
+	<ctl name="DACL SRC MIXER SIDETONE SWITCH" value="0" />
+	<ctl name="DACR MIXER S1R SWITCH" value="0" />
+	<ctl name="DACR MIXER S2R SWITCH" value="0" />
+	<ctl name="DACR MIXER MDM SWITCH" value="0" />
+	<ctl name="DACR MIXER S1L SWITCH" value="0" />
+	<ctl name="DACL MIXER S1L SWITCH" value="0" />
+	<ctl name="DACL MIXER S2L SWITCH" value="0" />
+	<ctl name="DACL MIXER MDM SWITCH" value="0" />
+	<ctl name="DACL MIXER S1R SWITCH" value="0" />
+	<ctl name="MAD PGA MIXER MIC4 SWITCH" value="0" />
+	<ctl name="MAD PGA MIXER MIC3 SWITCH" value="0" />
+	<ctl name="MAD PGA MIXER AUXMIC SWITCH" value="0" />
+	<ctl name="MAD PGA MIXER MAINMIC SWITCH" value="0" />
+	<ctl name="MAD PGA MIXER HPMIC SWITCH" value="0" />
+	<!-- default mux control values -->
+	<ctl name="MAINMIC MUX" value="HSMIC" />
+	<ctl name="LINEIN R MUX" value="MIC4" />
+	<ctl name="LINEIN L MUX" value="MIC3" />
+	<ctl name="REF MIC MUX" value="R0" />
+	<ctl name="ERROR MIC MUX" value="R1" />
+	<ctl name="ANC FAREND MUX" value="DACSL_384" />
+	<ctl name="DAC LINEOUTR MUX" value="Off" />
+	<ctl name="DAC LINEOUTL MUX" value="Off" />
+	<ctl name="DAC EP MUX" value="Off" />
+	<ctl name="DAC HPR MUX" value="Off" />
+	<ctl name="DAC HPL MUX" value="Off" />
+	<ctl name="SIDETONE MUX" value="S1L" />
+	<ctl name="MDM MUX" value="S3L" />
+	<ctl name="M1R MUX" value="ADC0R" />
+	<ctl name="M1L MUX" value="ADC0L" />
+	<ctl name="BTR MUX" value="ADC0R" />
+	<ctl name="BTL MUX" value="ADC0L" />
+	<ctl name="MIC4 MUX" value="ADC0R" />
+	<ctl name="MIC3 MUX" value="ADC0L" />
+	<ctl name="MIC2 MUX" value="ADC0R" />
+	<ctl name="MIC1 MUX" value="ADC0L" />
+	<ctl name="ADC1R MUX" value="LINEINR" />
+	<ctl name="ADC1L MUX" value="LINEINL" />
+	<ctl name="ADC0R MUX" value="AUXMIC" />
+	<ctl name="ADC0L MUX" value="MAINMIC" />
+	<ctl name="DACR SRC MUX" value="DACR" />
+	<ctl name="DACL SRC MUX" value="DACL" />
+	<ctl name="DACL PGA MUX" value="DACL_384" />
+	<ctl name="DACR PGA MUX" value="DACR_384" />
+	<!-- default port2 control config -->
+	
