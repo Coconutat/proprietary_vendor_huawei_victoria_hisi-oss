@@ -81,4 +81,25 @@
     <AlgorithmRFInfo>
         <frontFilterEnable>1</frontFilterEnable>        <!-- 0: disable 1: enable -->
         <edgeFilterEnable>1</edgeFilterEnable>          <!-- 0: disable 1: enable -->
-        <blurEnhanceRatio>1.0</blurEnhanceRatio>                      <!--  [0.5
+        <blurEnhanceRatio>1.0</blurEnhanceRatio>                      <!--  [0.5, 2.0] -->
+        <dofEnhanceRatio>1.0</dofEnhanceRatio>                       <!--  [0.5, 5.0] -->
+        <spotTh>220</spotTh>                            <!--  [80, 255] -->
+        <spotBrightnessEnhanceRatio>1.0</spotBrightnessEnhanceRatio>        <!--  [0.5, 5.0] -->
+        <errorSpotOptEnable>0</errorSpotOptEnable>        <!-- dxo open, product close -->
+        <portraitBlurEnhanceRatio>1.0</portraitBlurEnhanceRatio>      <!--  [0.5, 2.0] -->
+        <spotEnhanceEnable>0</spotEnhanceEnable>        <!-- dxo open, product close -->
+
+        <lowLightConnectAreaThRatio>70</lowLightConnectAreaThRatio>
+        <outSideCircleConnectAreaThRatio>20</outSideCircleConnectAreaThRatio>
+        <outSideOtherConnectAreaThRatio>40</outSideOtherConnectAreaThRatio>
+        <srcWeightSwirlAndDiscsRatio>5</srcWeightSwirlAndDiscsRatio>
+        <srcWeightHeartRatio>3</srcWeightHeartRatio>
+        <portraitAutoAdjustFocusPointEnable>1</portraitAutoAdjustFocusPointEnable> <!--人像模式多人场景自动选择对焦人脸-->
+
+    </AlgorithmRFInfo>
+
+    <ExternConfig>
+        <packDispRefMatImg>0</packDispRefMatImg> <!-- 是否存储中间数据结果 dxo open, product close-->
+    </ExternConfig>
+    
+</Config>

@@ -6,51 +6,28 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/huawei/victoria
 
 PRODUCT_COPY_FILES += \
-    vendor/huawei/victoria/proprietary/lodm/etc/firmware/ibpn551_fw.so:$(TARGET_COPY_OUT_SYSTEM)/lodm/etc/firmware/ibpn551_fw.so \
     vendor/huawei/victoria/proprietary/odm/etc/audio/HiVoice/HiVoice_VICTORIA_normal.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/HiVoice/HiVoice_VICTORIA_normal.xml \
-    vendor/huawei/victoria/proprietary/odm/etc/audio/algorithm/algorithm_VICTORIA-Oversea_normal.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/algorithm/algorithm_VICTORIA-Oversea_normal.xml \
     vendor/huawei/victoria/proprietary/odm/etc/audio/algorithm/algorithm_VICTORIA_normal.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/algorithm/algorithm_VICTORIA_normal.xml \
     vendor/huawei/victoria/proprietary/odm/etc/audio/asrenhance/parameters_nuance_16k_2EC.bsd:$(TARGET_COPY_OUT_ODM)/etc/audio/asrenhance/parameters_nuance_16k_2EC.bsd \
     vendor/huawei/victoria/proprietary/odm/etc/audio/asrenhance/parameters_nuance_16k_EC.bsd:$(TARGET_COPY_OUT_ODM)/etc/audio/asrenhance/parameters_nuance_16k_EC.bsd \
     vendor/huawei/victoria/proprietary/odm/etc/audio/asrenhance/parameters_nuance_16k_NR.bsd:$(TARGET_COPY_OUT_ODM)/etc/audio/asrenhance/parameters_nuance_16k_NR.bsd \
     vendor/huawei/victoria/proprietary/odm/etc/audio/asrenhance/parameters_nuance_16k_NR_vib.bsd:$(TARGET_COPY_OUT_ODM)/etc/audio/asrenhance/parameters_nuance_16k_NR_vib.bsd \
-    vendor/huawei/victoria/proprietary/odm/etc/audio/dts/dts_VICTORIA-Oversea_normal.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/dts/dts_VICTORIA-Oversea_normal.xml \
     vendor/huawei/victoria/proprietary/odm/etc/audio/dts/dts_VICTORIA_normal.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/dts/dts_VICTORIA_normal.xml \
-    vendor/huawei/victoria/proprietary/odm/etc/audio/hi6403/mixer_paths_VICTORIA-Oversea.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/hi6403/mixer_paths_VICTORIA-Oversea.xml \
     vendor/huawei/victoria/proprietary/odm/etc/audio/hi6403/mixer_paths_VICTORIA.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/hi6403/mixer_paths_VICTORIA.xml \
-    vendor/huawei/victoria/proprietary/odm/etc/audio/hi6403/mixer_volumes_VICTORIA-Oversea_ce.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/hi6403/mixer_volumes_VICTORIA-Oversea_ce.xml \
-    vendor/huawei/victoria/proprietary/odm/etc/audio/hi6403/mixer_volumes_VICTORIA-Oversea_cmcciot.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/hi6403/mixer_volumes_VICTORIA-Oversea_cmcciot.xml \
-    vendor/huawei/victoria/proprietary/odm/etc/audio/hi6403/mixer_volumes_VICTORIA-Oversea_gcf.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/hi6403/mixer_volumes_VICTORIA-Oversea_gcf.xml \
-    vendor/huawei/victoria/proprietary/odm/etc/audio/hi6403/mixer_volumes_VICTORIA-Oversea_normal.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/hi6403/mixer_volumes_VICTORIA-Oversea_normal.xml \
-    vendor/huawei/victoria/proprietary/odm/etc/audio/hi6403/mixer_volumes_VICTORIA-Oversea_telecomiot.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/hi6403/mixer_volumes_VICTORIA-Oversea_telecomiot.xml \
-    vendor/huawei/victoria/proprietary/odm/etc/audio/hi6403/mixer_volumes_VICTORIA-Oversea_unicomiot.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/hi6403/mixer_volumes_VICTORIA-Oversea_unicomiot.xml \
     vendor/huawei/victoria/proprietary/odm/etc/audio/hi6403/mixer_volumes_VICTORIA_ce.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/hi6403/mixer_volumes_VICTORIA_ce.xml \
     vendor/huawei/victoria/proprietary/odm/etc/audio/hi6403/mixer_volumes_VICTORIA_cmcciot.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/hi6403/mixer_volumes_VICTORIA_cmcciot.xml \
     vendor/huawei/victoria/proprietary/odm/etc/audio/hi6403/mixer_volumes_VICTORIA_gcf.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/hi6403/mixer_volumes_VICTORIA_gcf.xml \
     vendor/huawei/victoria/proprietary/odm/etc/audio/hi6403/mixer_volumes_VICTORIA_normal.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/hi6403/mixer_volumes_VICTORIA_normal.xml \
     vendor/huawei/victoria/proprietary/odm/etc/audio/hi6403/mixer_volumes_VICTORIA_telecomiot.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/hi6403/mixer_volumes_VICTORIA_telecomiot.xml \
     vendor/huawei/victoria/proprietary/odm/etc/audio/hi6403/mixer_volumes_VICTORIA_unicomiot.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/hi6403/mixer_volumes_VICTORIA_unicomiot.xml \
-    vendor/huawei/victoria/proprietary/odm/etc/audio/hi6403/pop_seq_VICTORIA-Oversea.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/hi6403/pop_seq_VICTORIA-Oversea.xml \
     vendor/huawei/victoria/proprietary/odm/etc/audio/hi6403/pop_seq_VICTORIA.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/hi6403/pop_seq_VICTORIA.xml \
-    vendor/huawei/victoria/proprietary/odm/etc/audio/mbdrc/mbdrc_VICTORIA-Oversea_normal.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/mbdrc/mbdrc_VICTORIA-Oversea_normal.xml \
     vendor/huawei/victoria/proprietary/odm/etc/audio/mbdrc/mbdrc_VICTORIA_normal.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/mbdrc/mbdrc_VICTORIA_normal.xml \
-    vendor/huawei/victoria/proprietary/odm/etc/audio/modem/modem_VICTORIA-Oversea_cmcciot.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/modem/modem_VICTORIA-Oversea_cmcciot.xml \
-    vendor/huawei/victoria/proprietary/odm/etc/audio/modem/modem_VICTORIA-Oversea_gcf.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/modem/modem_VICTORIA-Oversea_gcf.xml \
-    vendor/huawei/victoria/proprietary/odm/etc/audio/modem/modem_VICTORIA-Oversea_normal.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/modem/modem_VICTORIA-Oversea_normal.xml \
-    vendor/huawei/victoria/proprietary/odm/etc/audio/modem/modem_VICTORIA-Oversea_telecomiot.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/modem/modem_VICTORIA-Oversea_telecomiot.xml \
-    vendor/huawei/victoria/proprietary/odm/etc/audio/modem/modem_VICTORIA-Oversea_unicomiot.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/modem/modem_VICTORIA-Oversea_unicomiot.xml \
     vendor/huawei/victoria/proprietary/odm/etc/audio/modem/modem_VICTORIA_cmcciot.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/modem/modem_VICTORIA_cmcciot.xml \
     vendor/huawei/victoria/proprietary/odm/etc/audio/modem/modem_VICTORIA_gcf.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/modem/modem_VICTORIA_gcf.xml \
     vendor/huawei/victoria/proprietary/odm/etc/audio/modem/modem_VICTORIA_normal.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/modem/modem_VICTORIA_normal.xml \
     vendor/huawei/victoria/proprietary/odm/etc/audio/modem/modem_VICTORIA_telecomiot.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/modem/modem_VICTORIA_telecomiot.xml \
     vendor/huawei/victoria/proprietary/odm/etc/audio/modem/modem_VICTORIA_unicomiot.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/modem/modem_VICTORIA_unicomiot.xml \
-    vendor/huawei/victoria/proprietary/odm/etc/audio/sws/sws_3d_VICTORIA-Oversea_normal.cfg:$(TARGET_COPY_OUT_ODM)/etc/audio/sws/sws_3d_VICTORIA-Oversea_normal.cfg \
-    vendor/huawei/victoria/proprietary/odm/etc/audio/sws/sws_3d_VICTORIA_normal.cfg:$(TARGET_COPY_OUT_ODM)/etc/audio/sws/sws_3d_VICTORIA_normal.cfg \
-    vendor/huawei/victoria/proprietary/odm/etc/audio/sws/sws_VICTORIA-Oversea_normal.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/sws/sws_VICTORIA-Oversea_normal.xml \
     vendor/huawei/victoria/proprietary/odm/etc/audio/sws/sws_VICTORIA_normal.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/sws/sws_VICTORIA_normal.xml \
-    vendor/huawei/victoria/proprietary/odm/etc/audio/ti/ti_VICTORIA-Oversea_normal.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/ti/ti_VICTORIA-Oversea_normal.xml \
-    vendor/huawei/victoria/proprietary/odm/etc/audio/ti/ti_VICTORIA_normal.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/ti/ti_VICTORIA_normal.xml \
-    vendor/huawei/victoria/proprietary/odm/etc/audio/version:$(TARGET_COPY_OUT_ODM)/etc/audio/version \
     vendor/huawei/victoria/proprietary/odm/etc/audio/volume/audio_policy_volumes.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/volume/audio_policy_volumes.xml \
     vendor/huawei/victoria/proprietary/odm/etc/audio/volume/volume_point.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/volume/volume_point.xml \
     vendor/huawei/victoria/proprietary/odm/etc/camera/LaserCali/LaserCali.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/LaserCali/LaserCali.xml \
@@ -59,8 +36,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/victoria/proprietary/odm/etc/camera/bshutter/device.config:$(TARGET_COPY_OUT_ODM)/etc/camera/bshutter/device.config \
     vendor/huawei/victoria/proprietary/odm/etc/camera/bshutter/imx386/algo.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/bshutter/imx386/algo.xml \
     vendor/huawei/victoria/proprietary/odm/etc/camera/bshutter/imx386/info.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/bshutter/imx386/info.xml \
-    vendor/huawei/victoria/proprietary/odm/etc/camera/bshutter/ov12a10/algo.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/bshutter/ov12a10/algo.xml \
-    vendor/huawei/victoria/proprietary/odm/etc/camera/bshutter/ov12a10/info.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/bshutter/ov12a10/info.xml \
     vendor/huawei/victoria/proprietary/odm/etc/camera/configeffect/digitalzoom/device.config:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/digitalzoom/device.config \
     vendor/huawei/victoria/proprietary/odm/etc/camera/configeffect/digitalzoom/imx386dual/gcd.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/digitalzoom/imx386dual/gcd.xml \
     vendor/huawei/victoria/proprietary/odm/etc/camera/configeffect/digitalzoom/imx386dual/gcd_aux.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/digitalzoom/imx386dual/gcd_aux.xml \
@@ -105,7 +80,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/victoria/proprietary/odm/etc/camera/davinci/imx319/ivp_hdr2.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/davinci/imx319/ivp_hdr2.xml \
     vendor/huawei/victoria/proprietary/odm/etc/camera/davinci/imx319/mddavinci/imgproc.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/davinci/imx319/mddavinci/imgproc.xml \
     vendor/huawei/victoria/proprietary/odm/etc/camera/davinci/imx319/multiframe.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/davinci/imx319/multiframe.xml \
-    vendor/huawei/victoria/proprietary/odm/etc/camera/davinci/imx319/nicefood/imgproc.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/davinci/imx319/nicefood/imgproc.xml \
     vendor/huawei/victoria/proprietary/odm/etc/camera/davinci/imx386dual/colorfusion.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/davinci/imx386dual/colorfusion.xml \
     vendor/huawei/victoria/proprietary/odm/etc/camera/davinci/imx386dual/dcsr2.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/davinci/imx386dual/dcsr2.xml \
     vendor/huawei/victoria/proprietary/odm/etc/camera/davinci/imx386dual/dcsr_kernel2:$(TARGET_COPY_OUT_ODM)/etc/camera/davinci/imx386dual/dcsr_kernel2 \
@@ -168,7 +142,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/victoria/proprietary/odm/etc/camera/hdccalib/hw_calib_setting.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hdccalib/hw_calib_setting.xml \
     vendor/huawei/victoria/proprietary/odm/etc/camera/hdflash/device.config:$(TARGET_COPY_OUT_ODM)/etc/camera/hdflash/device.config \
     vendor/huawei/victoria/proprietary/odm/etc/camera/hdflash/imx386/hdflash.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hdflash/imx386/hdflash.xml \
-    vendor/huawei/victoria/proprietary/odm/etc/camera/hdflash/ov12a10/hdflash.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hdflash/ov12a10/hdflash.xml \
     vendor/huawei/victoria/proprietary/odm/etc/camera/hwbeauty/default/hwbeauty_params.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwbeauty/default/hwbeauty_params.xml \
     vendor/huawei/victoria/proprietary/odm/etc/camera/hwbeauty/device.config:$(TARGET_COPY_OUT_ODM)/etc/camera/hwbeauty/device.config \
     vendor/huawei/victoria/proprietary/odm/etc/camera/hwbeauty/imx219/hwbeauty_params.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwbeauty/imx219/hwbeauty_params.xml \
@@ -189,7 +162,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/victoria/proprietary/odm/etc/camera/mmi/hw_ois_calib_setting.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/mmi/hw_ois_calib_setting.xml \
     vendor/huawei/victoria/proprietary/odm/etc/camera/mmi/hwhallcodeCalib.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/mmi/hwhallcodeCalib.xml \
     vendor/huawei/victoria/proprietary/odm/etc/camera/mmi7cm/MHA_imx286dual/mmi7cmConfig.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/mmi7cm/MHA_imx286dual/mmi7cmConfig.xml \
-    vendor/huawei/victoria/proprietary/odm/etc/camera/mmi7cm/VICTORIA_imx386dual/mmi7cmConfig.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/mmi7cm/VICTORIA_imx386dual/mmi7cmConfig.xml \
     vendor/huawei/victoria/proprietary/odm/etc/camera/mmi7cm/device.config:$(TARGET_COPY_OUT_ODM)/etc/camera/mmi7cm/device.config \
     vendor/huawei/victoria/proprietary/odm/etc/camera/monitor_config.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/monitor_config.xml \
     vendor/huawei/victoria/proprietary/odm/etc/camera/motiondetection/mdconfig.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/motiondetection/mdconfig.xml \
@@ -208,7 +180,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/victoria/proprietary/odm/etc/camera/multidenoise/imx386dual/multiframe.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/multidenoise/imx386dual/multiframe.xml \
     vendor/huawei/victoria/proprietary/odm/etc/camera/multidenoise/multidenoise.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/multidenoise/multidenoise.xml \
     vendor/huawei/victoria/proprietary/odm/etc/camera/nicefood/device.config:$(TARGET_COPY_OUT_ODM)/etc/camera/nicefood/device.config \
-    vendor/huawei/victoria/proprietary/odm/etc/camera/nicefood/imx386dual/niceFood.dat:$(TARGET_COPY_OUT_ODM)/etc/camera/nicefood/imx386dual/niceFood.dat \
     vendor/huawei/victoria/proprietary/odm/etc/camera/offlinealgocfg.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/offlinealgocfg.xml \
     vendor/huawei/victoria/proprietary/odm/etc/camera/opticalzoom/device.config:$(TARGET_COPY_OUT_ODM)/etc/camera/opticalzoom/device.config \
     vendor/huawei/victoria/proprietary/odm/etc/camera/opticalzoom/imx386dual/dcsr2.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/opticalzoom/imx386dual/dcsr2.xml \
@@ -237,13 +208,13 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/victoria/proprietary/odm/etc/camera/smartae/imx219/SmartAE.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/smartae/imx219/SmartAE.xml \
     vendor/huawei/victoria/proprietary/odm/etc/camera/smartae/imx319/SmartAE.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/smartae/imx319/SmartAE.xml \
     vendor/huawei/victoria/proprietary/odm/etc/camera/smartae/imx386/SmartAE.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/smartae/imx386/SmartAE.xml \
-    vendor/huawei/victoria/proprietary/odm/etc/camera/smartae/ov12a10/SmartAE.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/smartae/ov12a10/SmartAE.xml \
     vendor/huawei/victoria/proprietary/odm/etc/camera/tornado/device.config:$(TARGET_COPY_OUT_ODM)/etc/camera/tornado/device.config \
     vendor/huawei/victoria/proprietary/odm/etc/camera/tornado/imx219/TornadoI.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/tornado/imx219/TornadoI.ini \
     vendor/huawei/victoria/proprietary/odm/etc/camera/tornado/imx319/TornadoI.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/tornado/imx319/TornadoI.ini \
     vendor/huawei/victoria/proprietary/odm/etc/camera/tornado/imx386dual/TornadoI.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/tornado/imx386dual/TornadoI.ini \
     vendor/huawei/victoria/proprietary/odm/etc/camera/videostabilization/config.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/videostabilization/config.xml \
     vendor/huawei/victoria/proprietary/odm/etc/camera/videostabilization/param_vdh.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/videostabilization/param_vdh.xml \
+    vendor/huawei/victoria/proprietary/odm/etc/firmware/libpn551_fw.so:$(TARGET_COPY_OUT_ODM)/etc/firmware/libpn551_fw.so \
     vendor/huawei/victoria/proprietary/odm/etc/firmware/ts/VCTO33100_default.ini:$(TARGET_COPY_OUT_ODM)/etc/firmware/ts/VCTO33100_default.ini \
     vendor/huawei/victoria/proprietary/odm/etc/firmware/ts/VCTO33100_short_open.bin:$(TARGET_COPY_OUT_ODM)/etc/firmware/ts/VCTO33100_short_open.bin \
     vendor/huawei/victoria/proprietary/odm/etc/firmware/ts/VCTO33100_short_open.ini:$(TARGET_COPY_OUT_ODM)/etc/firmware/ts/VCTO33100_short_open.ini \
