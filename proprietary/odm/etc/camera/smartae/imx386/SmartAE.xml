@@ -64,6 +64,7 @@
     <hdrType3_underExposureAdjust>190</hdrType3_underExposureAdjust> 	<!-- Thre 2000 -->
     <hdrType3_overExposureAdjust>190</hdrType3_overExposureAdjust> 		<!-- Thre -1700 -->
     <hdrType5_underExposureAdjust>256</hdrType5_underExposureAdjust> 	<!-- Thre 800 -->
+    </HdrCompAjust>
 
     <!--<minY:only binning, >maxY:binning + AE_Max, between:linear calculate-->
     <BinningControl>
