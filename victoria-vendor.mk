@@ -256,7 +256,9 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/victoria/proprietary/odm/lib64/hwcam/hwcam.hi3660.VICTORIA.s.IMX486HYBIRD.so:$(TARGET_COPY_OUT_ODM)/lib64/hwcam/hwcam.hi3660.VICTORIA.s.IMX486HYBIRD.so \
     vendor/huawei/victoria/proprietary/odm/lib64/hwcam/hwcam.hi3660.VICTORIA.s.OV8865.so:$(TARGET_COPY_OUT_ODM)/lib64/hwcam/hwcam.hi3660.VICTORIA.s.OV8865.so \
     vendor/huawei/victoria/proprietary/odm/lib64/hwcam/hwcam.hi3660.m.VICTORIA.so:$(TARGET_COPY_OUT_ODM)/lib64/hwcam/hwcam.hi3660.m.VICTORIA.so \
+    vendor/huawei/victoria/proprietary/odm/lib64/libMegviiUnlock.so:$(TARGET_COPY_OUT_ODM)/lib64/libMegviiUnlock.so \
     vendor/huawei/victoria/proprietary/odm/lib64/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_beautyshot.so \
+    vendor/huawei/victoria/proprietary/odm/lib64/libmegface_meglive.so:$(TARGET_COPY_OUT_ODM)/lib64/libmegface_meglive.so \
     vendor/huawei/victoria/proprietary/odm/lib64/libmrc_cg_beauty.so:$(TARGET_COPY_OUT_ODM)/lib64/libmrc_cg_beauty.so \
     vendor/huawei/victoria/proprietary/odm/lib64/libunlockmegcv.so:$(TARGET_COPY_OUT_ODM)/lib64/libunlockmegcv.so \
     vendor/huawei/victoria/proprietary/odm/lib64/libvidhance.so:$(TARGET_COPY_OUT_ODM)/lib64/libvidhance.so \
